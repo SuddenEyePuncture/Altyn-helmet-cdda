@@ -1,0 +1,20 @@
+[ 
+  {
+    "type": "item_group",
+    "subtype": "distribution",
+    "id": "eod_armor",
+    "entries": [
+      {
+        "collection": [
+          { "item": "helmet_eod", "charges": [ 0, 500 ] },
+          { "item": "jacket_eod" },
+          { "item": "trousers_eod" },
+          { "item": "foot_protectors_eod" },
+          { "item": "gloves_eod", "prob": 20 }
+        ],
+        "prob": 100
+      },
+      { "collection": [ { "item": "jacket_eod_light" }, { "item": "trousers_eod_light" } ], "prob": 20 },
+      { "collection": [ { "item": "helmet_altyn" } ], "prob": 100 }]
+    }
+]

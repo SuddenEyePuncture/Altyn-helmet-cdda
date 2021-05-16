@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "Altyn",
+    "name": "Altyn helmet",
+    "authors": [ "SuddenEyePuncture" ],
+    "description": "Add new rare military helmets",
+    "category": "content",
+    "dependencies": [ "dda", "aftershock" ]
+  }
+]

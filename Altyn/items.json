@@ -1,0 +1,46 @@
+[
+  {
+    "id": "helmet_altyn",
+    "type": "TOOL_ARMOR",
+    "category": "armor",
+    "name": { "str": "Altyn helmet" },
+    "description": "Extremely durable helmet, designed for russian special forces.  It's made of titanium and several layers of kevlar-like material.  You can raise visor for better view or communicate with comrades by built-in radio.",
+    "weight": "5600 g",
+    "volume": "4 L",
+    "price": 150000,
+    "armor_portion_data": [
+      { "covers": [ "head" ], "coverage": 100, "encumbrance": 30 },
+      { "covers": [ "eyes" ], "coverage": 100, "encumbrance": 15 },
+      { "covers": [ "mouth"], "coverage": 100, "encumbrance": 20 }
+    ],
+    "warmth": 40,
+    "material": [ "kevlar_rigid", "titanium" ],
+    "symbol": "[",
+    "color": "light_gray",
+    "environmental_protection": 2,
+    "use_action": { "type": "transform", "target": "helmet_altyn_raised", "msg": "You raise your visor." },
+    "material_thickness": 15,
+    "flags": [ "STURDY", "OUTER", "RAINPROOF", "TWO_WAY_RADIO", "SUN_GLASSES" ]
+  },
+  {
+    "id": "helmet_altyn_raised",
+    "type": "TOOL_ARMOR",
+    "category": "armor",
+    "name": { "str": "Altyn helmet (raised visor)", "str_pl": "Altyn helmets (raised visor)"},
+    "description": "Extremely durable helmet, designed for russian special forces.  It's made of titanium and several layers of kevlar-like material.  Now its visor is raised.",
+    "weight": "5600 g",
+    "volume": "4 L",
+    "price": 150000,
+    "armor_portion_data": [
+      { "covers": [ "head" ], "coverage": 100, "encumbrance": 30 }
+    ],
+    "warmth": 40,
+    "material": [ "kevlar_rigid", "titanium" ],
+    "symbol": "[",
+    "color": "light_gray",
+    "environmental_protection": 2,
+    "use_action": { "type": "transform", "target": "helmet_altyn", "msg": "You put down your visor." },
+    "material_thickness": 15,
+    "flags": [ "STURDY", "OUTER", "RAINPROOF", "TWO_WAY_RADIO" ]
+  }
+]
