@@ -4,7 +4,7 @@
     "ident": "Altyn",
     "name": "Altyn helmet",
     "authors": [ "SuddenEyePuncture" ],
-    "description": "Add new rare military helmets",
+    "description": "Adds new rare military helmet.",
     "category": "content",
     "dependencies": [ "dda", "aftershock" ]
   }
