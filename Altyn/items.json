@@ -8,6 +8,7 @@
     "weight": "5600 g",
     "volume": "4 L",
     "price": 150000,
+    "looks_like": "helmet_riot",
     "armor_portion_data": [
       { "covers": [ "head" ], "coverage": 100, "encumbrance": 30 },
       { "covers": [ "eyes" ], "coverage": 100, "encumbrance": 15 },
@@ -26,6 +27,8 @@
     "id": "helmet_altyn_raised",
     "type": "TOOL_ARMOR",
     "category": "armor",
+    "repairs_like": "helmet_altyn",
+    "looks_like": "helmet_riot_raised",
     "name": { "str": "Altyn helmet (raised visor)", "str_pl": "Altyn helmets (raised visor)"},
     "description": "Extremely durable helmet, designed for russian special forces.  It's made of titanium and several layers of kevlar-like material.  Now its visor is raised.",
     "weight": "5600 g",
